@@ -1,0 +1,24 @@
+# Environments
+venv/
+env/
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Environment Variables 
+.env
+
+# Logs
+lightning_logs/
+
+# Experimental Files
+src/old_src/
+
+# Data
+data/
