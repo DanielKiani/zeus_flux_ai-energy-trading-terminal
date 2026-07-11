@@ -102,10 +102,6 @@ def run_optuna_search():
 
     # 3. Tune Each Expert
     for i, target in enumerate(TARGETS):
-        # ⚡ RESUME FIX: Skip the models that are already tuned!
-        if target in ['load', 'wind_offshore', 'wind_onshore', 'solar', 'biomass']:
-            logging.info(f"⏭️ Skipping {target.upper()} (Already optimized)")
-            continue
 
         logging.info(f"\n{'='*60}\n🔍 TUNING EXPERT: {target.upper()}\n{'='*60}")
         
