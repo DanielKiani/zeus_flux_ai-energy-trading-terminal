@@ -1,0 +1,15 @@
+# Backend API & Server
+fastapi==0.139.1
+uvicorn==0.51.0
+numpy==2.5.1
+pandas==3.0.3
+scikit_learn==1.9.0
+joblib==1.5.3
+holidays==0.99
+torch==2.12.1
+pytorch_lightning==2.6.5
+xgboost==3.3.0
+lightgbm==4.6.0
+optuna==4.9.0
+Requests==2.34.2
+python-dotenv>=1.0.0

@@ -108,7 +108,7 @@ zeus-flux-terminal/
 **1. Clone the repository**
 
 ```bash
-git clone [https://github.com/danielkiani/zeus-flux-terminal.git](https://github.com/danielkiani/zeus-flux-terminal.git)
+git clone https://github.com/danielkiani/zeus-flux-terminal.git
 cd zeus-flux-terminal
 ```
 
